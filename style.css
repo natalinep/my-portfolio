@@ -1,0 +1,10 @@
+:root {
+  /* for main text */
+  --main-font-family: "Domine", serif;
+  /* for h1-h6 */
+  --second-font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  color: hotpink;
+}
