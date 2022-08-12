@@ -375,7 +375,7 @@ i {
 /* -------Contact page ------------*/
 
 .contact {
-  margin: 7vw 7vw 2vw;
+  margin: 140px 7vw 0;
 }
 
 /* --------Portfolio page---------- */
@@ -481,7 +481,7 @@ i {
 
   /* Contact */
   .contact {
-    margin-top: 70px;
+    margin-top: 170px;
   }
 }
 
@@ -559,5 +559,38 @@ i {
   .description,
   .photo {
     margin: 0 !important;
+  }
+
+  .contact {
+    margin: 170px 7vw 0 !important;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 34px !important;
+  }
+  .btns {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btns .button:last-child {
+    margin-top: 40px !important;
+  }
+  .btns .button {
+    margin: 0 !important;
+  }
+  .footer {
+    margin: 0 25px 15px;
+    font-size: 10px;
+  }
+  .email {
+    right: 0px;
+  }
+  .social {
+    left: 0;
+  }
+  .contact {
+    margin: 140px 7vw 0 !important;
   }
 }
