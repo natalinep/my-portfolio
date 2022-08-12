@@ -604,4 +604,7 @@ i {
   .ajax {
     padding-right: 18px;
   }
+  i {
+    padding: 10px 0;
+  }
 }
