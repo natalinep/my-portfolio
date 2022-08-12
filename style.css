@@ -483,3 +483,82 @@ i {
     margin-top: 70px;
   }
 }
+
+@media (max-width: 769px) {
+  /* Home */
+
+  .main {
+    /* margin-top: 70px; */
+    margin: 70px 30px 30px;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 12px;
+  }
+
+  .social-vertical i {
+    font-size: 16px;
+  }
+  .social {
+    left: 8px;
+  }
+  .email {
+    right: 8px;
+  }
+
+  .button {
+    font-size: 14px;
+    height: 45px;
+    width: 145px;
+    padding: 10px 10px;
+  }
+
+  .border-top-bottom::before {
+    bottom: 48px;
+    right: 78px;
+  }
+
+  .border-left-right::before {
+    height: 30px;
+    right: 148px;
+  }
+
+  .button:hover .border-left-right::after {
+    height: 54px;
+  }
+  .button:hover .border-top-bottom::before {
+    width: 154px;
+  }
+  .button:hover .border-left-right::before {
+    height: 54px;
+  }
+  .button:hover .border-top-bottom::after {
+    width: 154px;
+  }
+
+  /* Portfolio */
+
+  /* #portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  #portfolio div:first-child {
+    margin-bottom: 10px;
+  } */
+}

@@ -3,7 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
     <!-- CSS-->
     <link rel="stylesheet" href="/style.css" />
     <!-- Bootstrap -->
@@ -97,9 +100,19 @@
       <main class="main portfolio">
         <div class="container">
           <h1 class="text-center">Portfolio</h1>
-          <div class="row mt-5 me-2 ms-2">
+          <div class="row mt-4 me-2 ms-2 d-block d-sm-flex">
             <div
-              class="col-6 pe-5 d-block d-lg-flex flex-column justify-content-center"
+              class="col-12 col-md-6 d-block d-md-flex align-items-center order-md-1"
+            >
+              <img
+                class="img-fluid img-width"
+                src="/images/photos/weather-app.png"
+                alt="Weather App"
+              />
+            </div>
+
+            <div
+              class="col-12 col-md-6 mt-4 mt-md-0 pe-md-3 d-block d-lg-flex flex-column justify-content-center order-md-0"
             >
               <h2>Weather App</h2>
               <p>
@@ -127,17 +140,10 @@
                 </div>
               </div>
             </div>
-            <div class="col-6 d-flex align-items-center">
-              <img
-                class="img-fluid img-width"
-                src="/images/photos/weather-app.png"
-                alt="Weather App"
-              />
-            </div>
           </div>
 
           <div class="row mt-5 me-2 ms-2">
-            <div class="col-6 d-flex align-items-center">
+            <div class="col-12 col-md-6 d-block d-md-flex align-items-center">
               <img
                 class="img-fluid img-width"
                 src="/images/photos/landing-page.png"
@@ -146,7 +152,7 @@
             </div>
 
             <div
-              class="col-6 ps-5 d-block d-lg-flex flex-column justify-content-center"
+              class="col-12 col-md-6 mt-4 mt-md-0 ps-md-3 d-block d-lg-flex flex-column justify-content-center"
             >
               <h2>Landing Page</h2>
               <p>
@@ -175,7 +181,17 @@
 
           <div class="row mt-5 me-2 ms-2">
             <div
-              class="col-6 pe-5 d-block d-lg-flex flex-column justify-content-center"
+              class="col-12 col-md-6 d-block d-md-flex align-items-center order-md-1"
+            >
+              <img
+                class="img-fluid img-width"
+                src="/images/photos/active-box.png"
+                alt="Landing Page"
+              />
+            </div>
+
+            <div
+              class="col-12 col-md-6 mt-4 mt-md-0 pe-md-3 d-block d-lg-flex flex-column justify-content-center order-md-0"
             >
               <h2>Landing Page</h2>
               <p>
@@ -198,13 +214,6 @@
                   </a>
                 </div>
               </div>
-            </div>
-            <div class="col-6 d-flex align-items-center">
-              <img
-                class="img-fluid img-width"
-                src="/images/photos/active-box.png"
-                alt="Landing Page"
-              />
             </div>
           </div>
         </div>
