@@ -375,7 +375,7 @@ i {
 /* -------Contact page ------------*/
 
 .contact {
-  margin: 7vw 5vw 2vw;
+  margin: 7vw 7vw 2vw;
 }
 
 /* --------Portfolio page---------- */
@@ -414,4 +414,72 @@ i {
 
 .soft-skills {
   font-size: 14px !important;
+}
+
+/* ----------MEDIA------------ */
+
+@media (max-width: 992px) {
+  /* About */
+
+  .photo {
+    margin: 5px 0 0 -20px !important;
+  }
+  .description {
+    margin: 5px -20px 0 -50px;
+  }
+  .description p {
+    font-size: 14px;
+  }
+  .soft-skills {
+    font-size: 12px !important;
+    padding-left: 16px;
+  }
+  .description .col-6:first-child {
+    padding-right: 0;
+  }
+  .description .col-6:last-child {
+    padding-left: 0;
+  }
+
+  .skills {
+    margin-top: 0 !important;
+  }
+
+  .skills h2 {
+    margin-top: 0 !important;
+  }
+
+  .skills ul,
+  .certifications p,
+  .certifications ul {
+    font-size: 14px;
+  }
+
+  .certifications {
+    text-align: center;
+  }
+
+  .certifications ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  /* Portfolio */
+
+  .portfolio {
+    margin-top: 70px !important;
+    text-align: center;
+  }
+
+  .tools {
+    font-size: 20px;
+  }
+  .portfolio p {
+    font-size: 14px;
+  }
+
+  /* Contact */
+  .contact {
+    margin-top: 70px;
+  }
 }
