@@ -590,10 +590,10 @@ i {
     font-size: 10px;
   }
   .email {
-    right: 0px;
+    right: 15px;
   }
   .social {
-    left: 0;
+    left: 15px;
   }
   .contact {
     margin: 140px 7vw 0 !important;
