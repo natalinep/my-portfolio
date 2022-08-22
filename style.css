@@ -299,7 +299,7 @@ i {
   font-weight: 700;
 }
 
-/* Preloader */
+/* -------------Preloader -------------------*/
 
 .preloader {
   position: fixed;
@@ -597,6 +597,30 @@ i {
   }
   .contact {
     margin: 140px 7vw 0 !important;
+  }
+
+  /* Vertical */
+  .email-vertical a,
+  .social-vertical a {
+    writing-mode: horizontal-tb;
+  }
+
+  .social-vertical ul::after,
+  .email-vertical::after {
+    content: "";
+    display: none;
+  }
+  .email,
+  .social {
+    width: 100%;
+    position: relative;
+    right: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+  .list-unstyled {
+    display: flex;
   }
 }
 
